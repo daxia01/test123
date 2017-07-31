@@ -1,0 +1,39 @@
+[ 2017-07-11T10:25:30+08:00 ] 127.0.0.1 /index.php/Admin/Jsq/JspController.class.php
+ERR: 非法操作:JspController.class.php
+
+[ 2017-07-11T10:25:30+08:00 ] 127.0.0.1 /index.php/Admin/Jsq/JspController.class.php
+ERR: 非法操作:JspController.class.php
+
+[ 2017-07-11T10:26:43+08:00 ] 127.0.0.1 /index.php/Admin/Jsq/__VIEW__JspController.class.php
+ERR: 非法操作:__VIEW__JspController.class.php
+
+[ 2017-07-11T10:27:20+08:00 ] 127.0.0.1 /index.php/Admin/Jsq/JspController.class.php
+ERR: 非法操作:JspController.class.php
+
+[ 2017-07-11T10:35:34+08:00 ] 127.0.0.1 /index.php/Admin/Jsq/JspController.class.php
+ERR: 非法操作:JspController.class.php
+
+[ 2017-07-11T10:51:33+08:00 ] 127.0.0.1 /index.php/Admin/Jsq/JspController.class.php
+ERR: 非法操作:JspController.class.php
+
+[ 2017-07-11T10:54:23+08:00 ] 127.0.0.1 /index.php/Admin/Jsq/JspController.class.php
+ERR: 非法操作:JspController.class.php
+
+[ 2017-07-11T10:54:25+08:00 ] 127.0.0.1 /index.php/Admin/Jsq/JspController.class.php
+ERR: 非法操作:JspController.class.php
+
+[ 2017-07-11T10:55:14+08:00 ] 127.0.0.1 /index.php/Admin/Jsq/JspController.class.php/test
+ERR: 非法操作:JspController.class.php
+
+[ 2017-07-11T10:59:12+08:00 ] 127.0.0.1 /index.php/Admin/Jsq/Admin/Controller/JspController.class.php
+ERR: 非法操作:Admin
+
+[ 2017-07-11T12:14:53+08:00 ] 127.0.0.1 /index.php/Admin/Jsq/test.html
+ERR: Think\Controller:assogn方法不存在！
+
+[ 2017-07-11T12:14:57+08:00 ] 127.0.0.1 /index.php/Admin/Jsq/test.html
+ERR: Think\Controller:assogn方法不存在！
+
+[ 2017-07-11T12:51:45+08:00 ] 127.0.0.1 /index.php/Admin/Jsq/test.html
+ERR: 参数错误或者未定义:num1
+

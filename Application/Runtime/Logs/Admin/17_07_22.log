@@ -1,0 +1,46 @@
+[ 2017-07-22T10:08:06+08:00 ] 127.0.0.1 /index.php/Admin/User/add.html
+ERR: 1292:Incorrect date value: '' for column 'birthday' at row 1
+ [ SQL语句 ] : INSERT INTO `sp_user` (`username`,`password`,`truename`,`nickname`,`dept_id`,`sex`,`birthday`,`tel`,`email`,`remark`,`addtime`) VALUES ('admin','','','','-1','男','','','','','1500689286')
+
+[ 2017-07-22T10:23:42+08:00 ] 127.0.0.1 /index.php/Admin/User/edit/id/1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `sp_user` WHERE ( id !=  ) 
+
+[ 2017-07-22T10:27:18+08:00 ] 127.0.0.1 /index.php/Admin/User/edit/id/1
+ERR: 1054:Unknown column 'dept_id' in 'where clause'
+ [ SQL语句 ] : SELECT `id`,`name` FROM `sp_dept` WHERE ( dept_id != $id  ) 
+
+[ 2017-07-22T10:28:34+08:00 ] 127.0.0.1 /index.php/Admin/User/edit/id/1
+ERR: 1054:Unknown column '$id' in 'where clause'
+ [ SQL语句 ] : SELECT `id`,`name` FROM `sp_dept` WHERE ( id != $id  ) 
+
+[ 2017-07-22T10:49:40+08:00 ] 127.0.0.1 /index.php/Admin/User/edit/id/1/
+ERR: 1054:Unknown column '$id' in 'field list'
+ [ SQL语句 ] : SELECT `$id` FROM `sp_user` 
+
+[ 2017-07-22T10:53:03+08:00 ] 127.0.0.1 /index.php/Admin/User/edit/id/1/
+ERR: 1054:Unknown column '$info.id' in 'where clause'
+ [ SQL语句 ] : SELECT `id`,`name` FROM `sp_dept` WHERE ( id != $info.id  ) 
+
+[ 2017-07-22T11:39:03+08:00 ] 127.0.0.1 /index.php/Admin/User/edit/id/1/
+ERR: 1146:Table 'db_oa.sp_' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `sp_` WHERE `id` = '1' LIMIT 1  
+
+[ 2017-07-22T11:39:22+08:00 ] 127.0.0.1 /index.php/Admin/User/edit
+ERR: 1146:Table 'db_oa.sp_' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `sp_` WHERE `id` = '' LIMIT 1  
+
+[ 2017-07-22T11:39:28+08:00 ] 127.0.0.1 /index.php/Admin/User/edit/id/1/
+ERR: 1146:Table 'db_oa.sp_' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `sp_` WHERE `id` = '1' LIMIT 1  
+
+[ 2017-07-22T14:57:27+08:00 ] 127.0.0.1 /index.php/Admin/User/showList/p/1.html
+ERR: 1146:Table 'db_oa.sp_' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `sp_` 
+
+[ 2017-07-22T17:50:45+08:00 ] 127.0.0.1 /index.php/Admin/User/charts
+ERR: 模板不存在:./Application/Admin/View/User/charts.html
+
+[ 2017-07-22T18:15:08+08:00 ] 127.0.0.1 /index.php/Admin/login
+ERR: 无法加载控制器:Login
+

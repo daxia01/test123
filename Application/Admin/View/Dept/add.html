@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="__ADMIN__/css/base.css" />
+<link rel="stylesheet" href="__ADMIN__/css/info-reg.css" />
+<title>移动办公自动化系统</title>
+</head>
+
+<body>
+<div class="title"><h2>信息登记</h2></div>
+<form action="" method="post">
+	<div class="main">
+	    <p class="short-input ue-clear">
+	    	<label>部门名称：</label>
+	        <input type="text" name="ak47" placeholder="部门名称" />
+	    </p>
+	    <div class="short-input select ue-clear">
+	    	<label>上级部门：</label>
+	        <div class="select-wrap">
+	        	<select name="pid" >		
+	                <option value="0">顶级部门</option>
+	                <volist name='date' id='vol'>
+	                	<option value="{$vol.id}">{$vol.name}</if></option>
+	                </volist>
+	            </select>
+	        </div>
+	    </div>
+	    <p class="short-input ue-clear">
+	    	<label>排序：</label>
+	        <input type="text" name="mp4" placeholder="排序" />
+	    </p>
+	    <p class="short-input ue-clear">
+	    	<label>备注：</label>
+	        <textarea placeholder="备注" name="wasd"></textarea>
+	    </p>
+	</div>
+	<div class="btn ue-clear">
+		<a href="javascript:;" class="confirm">确定</a>
+	    <a href="javascript:;" class="clear">清空内容</a>
+	    <!--
+        	<a href="{:u('Dept/showList')}" class="back">返回</a>
+        -->
+	   
+	</div>
+</form>
+</body>
+<script type="text/javascript" src="__ADMIN__/js/jquery.js"></script>
+<script type="text/javascript" src="__ADMIN__/js/common.js"></script>
+<script type="text/javascript" src="__ADMIN__/js/WdatePicker.js"></script>
+<!--
+<script type="text/javascript" src="__ADMIN__/js/mymouse.js" id="mymouse"></script>	
+-->
+
+
+<script type="text/javascript">
+$(".select-title").on("click",function(){
+	$(".select-list").toggle();
+	return false;
+});
+$(".select-list").on("click","li",function(){
+	var txt = $(this).text();
+	$(".select-title").find("span").text(txt);
+});
+
+
+showRemind('input[type=text], textarea','placeholder');
+//jq代码  页面载入事件
+$(function(){
+	//给确定按钮绑定一个点击事件
+	$('.confirm').on('click',function(){
+		//事件的处理程序
+		$('form').submit();
+	});
+	//给清空按钮绑定一个点击事件 .get(0).
+	$('.clear').on('click',function(){
+		$('form')[0].reset();
+	});
+});
+</script>
+</html>

@@ -1,0 +1,21 @@
+[ 2017-07-16T11:33:46+08:00 ] 127.0.0.1 /index.php/Admin/Test/__Admin__bootstrap.min.ja
+ERR: 非法操作:__Admin__bootstrap.min.ja
+
+[ 2017-07-16T11:33:46+08:00 ] 127.0.0.1 /index.php/Admin/Test/__Admin__/css/bootstrap.min.css
+ERR: 非法操作:__Admin__
+
+[ 2017-07-16T11:33:46+08:00 ] 127.0.0.1 /index.php/Admin/Test/__Admin__/js/jquery.min.js
+ERR: 非法操作:__Admin__
+
+[ 2017-07-16T11:33:46+08:00 ] 127.0.0.1 /index.php/Admin/Test/__Admin__bootstrap.min.ja
+ERR: 非法操作:__Admin__bootstrap.min.ja
+
+[ 2017-07-16T11:35:42+08:00 ] 127.0.0.1 /index.php/Admin/Test/__Admin__/css/bootstrap.min.css
+ERR: 非法操作:__Admin__
+
+[ 2017-07-16T11:35:52+08:00 ] 127.0.0.1 /index.php/Admin/Test/__Admin__bootstrap.min.ja
+ERR: 非法操作:__Admin__bootstrap.min.ja
+
+[ 2017-07-16T18:45:32+08:00 ] 127.0.0.1 /index.php/Admin/Public/test11
+ERR: 非法操作:test11
+

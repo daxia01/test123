@@ -1,0 +1,93 @@
+[ 2017-07-21T09:37:57+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== 0 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( pid == 0 ) 
+
+[ 2017-07-21T09:50:56+08:00 ] 127.0.0.1 /index.php/Admin/Dept/edit/id/21
+ERR: 模板不存在:./Application/Admin/View/Dept/edit.html
+
+[ 2017-07-21T10:09:56+08:00 ] 127.0.0.1 /index.php/Admin/Dept/edit/id/21
+ERR: 1054:Unknown column '$id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( $id != 21 ) 
+
+[ 2017-07-21T10:11:21+08:00 ] 127.0.0.1 /index.php/Admin/Dept/edit/id/21
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '! = 21 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( id ! = 21 ) 
+
+[ 2017-07-21T10:18:01+08:00 ] 127.0.0.1 /index.php/Admin/Dept/edit/id/35
+ERR: XML标签语法错误 : condition='$vol['id'] == $date['pid']'
+
+[ 2017-07-21T13:37:40+08:00 ] 127.0.0.1 /index.php/Admin/Dept/edit
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( id !=  ) 
+
+[ 2017-07-21T13:39:28+08:00 ] 127.0.0.1 /index.php/Admin/Dept/edit
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( id !=  ) 
+
+[ 2017-07-21T13:39:30+08:00 ] 127.0.0.1 /index.php/Admin/Dept/edit
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( id !=  ) 
+
+[ 2017-07-21T15:21:19+08:00 ] 127.0.0.1 /index.php/Admin/Dept/del/id%2018
+ERR: Think\Model:delect方法不存在！
+
+[ 2017-07-21T18:43:32+08:00 ] 127.0.0.1 /index.php/Admin/User/showList
+ERR: 1054:Unknown column 'dept_id' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE `id` = 0 ORDER BY dept_id asc LIMIT 1  
+
+[ 2017-07-21T18:48:37+08:00 ] 127.0.0.1 /index.php/Admin/User/edit/id/1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `sp_user` WHERE ( id !=  ) 
+
+[ 2017-07-21T22:25:42+08:00 ] 127.0.0.1 /index.php/Admin/User/add.html
+ERR: 1292:Incorrect date value: '' for column 'birthday' at row 1
+ [ SQL语句 ] : INSERT INTO `sp_user` (`username`,`password`,`truename`,`nickname`,`dept_id`,`sex`,`birthday`,`tel`,`email`,`addtime`) VALUES ('','','','','-1','男','','','','1500647142')
+
+[ 2017-07-21T22:25:42+08:00 ] 127.0.0.1 /index.php/Admin/User/add.html
+ERR: 1292:Incorrect date value: '' for column 'birthday' at row 1
+ [ SQL语句 ] : INSERT INTO `sp_user` (`username`,`password`,`truename`,`nickname`,`dept_id`,`sex`,`birthday`,`tel`,`email`,`addtime`) VALUES ('','','','','-1','男','','','','1500647142')
+
+[ 2017-07-21T22:34:59+08:00 ] 127.0.0.1 /index.php/Admin/User/add.html
+ERR: 1292:Incorrect date value: '' for column 'birthday' at row 1
+ [ SQL语句 ] : INSERT INTO `sp_user` (`username`,`password`,`truename`,`nickname`,`dept_id`,`sex`,`birthday`,`tel`,`email`,`addtime`) VALUES ('','','','','-1','男','','','','1500647699')
+
+[ 2017-07-21T22:35:01+08:00 ] 127.0.0.1 /index.php/Admin/User/add.html
+ERR: 1292:Incorrect date value: '' for column 'birthday' at row 1
+ [ SQL语句 ] : INSERT INTO `sp_user` (`username`,`password`,`truename`,`nickname`,`dept_id`,`sex`,`birthday`,`tel`,`email`,`addtime`) VALUES ('','','','','-1','男','','','','1500647701')
+
+[ 2017-07-21T22:56:42+08:00 ] 127.0.0.1 /index.php/Admin/User/add.html
+ERR: 1292:Incorrect date value: '' for column 'birthday' at row 1
+ [ SQL语句 ] : INSERT INTO `sp_user` (`username`,`password`,`truename`,`nickname`,`dept_id`,`sex`,`birthday`,`tel`,`email`,`addtime`) VALUES ('','','','','2','男','','','','1500649002')
+
+[ 2017-07-21T23:22:07+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+ERR: 1146:Table 'db_oa.sp_' doesn't exist
+ [ SQL语句 ] : SELECT DISTINCT  * FROM `sp_` WHERE `id` = '1' LIMIT 1  
+
+[ 2017-07-21T23:23:27+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+ERR: 1146:Table 'db_oa.sp_' doesn't exist
+ [ SQL语句 ] : SELECT DISTINCT  * FROM `sp_` WHERE `id` = '1' LIMIT 1  
+
+[ 2017-07-21T23:23:29+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+ERR: 1146:Table 'db_oa.sp_' doesn't exist
+ [ SQL语句 ] : SELECT DISTINCT  * FROM `sp_` WHERE `id` = '1' LIMIT 1  
+
+[ 2017-07-21T23:24:53+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+ERR: 1146:Table 'db_oa.sp_' doesn't exist
+ [ SQL语句 ] : SELECT DISTINCT  `dept_name` FROM `sp_` 
+
+[ 2017-07-21T23:29:39+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+ERR: 1146:Table 'db_oa.sp_' doesn't exist
+ [ SQL语句 ] : SELECT DISTINCT  `dept_name` FROM `sp_` 
+
+[ 2017-07-21T23:34:06+08:00 ] 127.0.0.1 /index.php/Admin/User/add.html
+ERR: 1292:Incorrect date value: '' for column 'birthday' at row 1
+ [ SQL语句 ] : INSERT INTO `sp_user` (`username`,`password`,`truename`,`nickname`,`dept_id`,`sex`,`birthday`,`tel`,`email`,`addtime`) VALUES ('','','','','-1','男','','','','1500651246')
+
+[ 2017-07-21T23:34:10+08:00 ] 127.0.0.1 /index.php/Admin/User/add.html
+ERR: 1292:Incorrect date value: '' for column 'birthday' at row 1
+ [ SQL语句 ] : INSERT INTO `sp_user` (`username`,`password`,`truename`,`nickname`,`dept_id`,`sex`,`birthday`,`tel`,`email`,`addtime`) VALUES ('','','','','-1','男','','','','1500651250')
+
+[ 2017-07-21T23:34:14+08:00 ] 127.0.0.1 /index.php/Admin/User/add.html
+ERR: 1292:Incorrect date value: '' for column 'birthday' at row 1
+ [ SQL语句 ] : INSERT INTO `sp_user` (`username`,`password`,`truename`,`nickname`,`dept_id`,`sex`,`birthday`,`tel`,`email`,`addtime`) VALUES ('','','','','-1','男','','','','1500651254')
+

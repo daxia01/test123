@@ -1,0 +1,12 @@
+[ 2017-07-24T13:26:08+08:00 ] 127.0.0.1 /index.php/Admin/Doc/mobile/
+ERR: 非法操作:mobile
+
+[ 2017-07-24T13:26:32+08:00 ] 127.0.0.1 /index.php/Admin/Doc/mobile/
+ERR: 非法操作:mobile
+
+[ 2017-07-24T15:16:01+08:00 ] 127.0.0.1 /index.php/Admin/Doc/edit/id/3/
+ERR: 非法操作:edit
+
+[ 2017-07-24T15:23:46+08:00 ] 127.0.0.1 /index.php/Admin/Doc/edit/id/2/
+ERR: 非法操作:edit
+

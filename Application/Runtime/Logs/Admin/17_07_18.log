@@ -1,0 +1,6 @@
+[ 2017-07-18T10:08:39+08:00 ] 127.0.0.1 /index.php/Admin/TEST/test13
+ERR: 无法加载控制器:TEST
+
+[ 2017-07-18T18:47:11+08:00 ] 127.0.0.1 /index.php/Admin/Public/index.html
+ERR: 非法操作:index
+

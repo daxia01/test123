@@ -1,0 +1,21 @@
+[ 2017-07-23T11:48:26+08:00 ] 127.0.0.1 /index.php/Admin/Dept/login
+ERR: 非法操作:login
+
+[ 2017-07-23T11:48:26+08:00 ] 127.0.0.1 /index.php/Admin/Dept/login
+ERR: 非法操作:login
+
+[ 2017-07-23T11:48:28+08:00 ] 127.0.0.1 /index.php/Admin/Dept/login
+ERR: 非法操作:login
+
+[ 2017-07-23T13:36:53+08:00 ] 127.0.0.1 /index.php/Admin/Doc/add.html
+ERR: 1364:Field 'filepath' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `sp_doc` (`title`,`author`,`content`,`addtime`) VALUES ('天蚕土豆入选福布斯中国30岁以下精英榜 堂姐：嘚瑟','admin','我有很多花花 丢掉也不给你','1500788212')
+
+[ 2017-07-23T13:38:54+08:00 ] 127.0.0.1 /index.php/Admin/Doc/add.html
+ERR: 1364:Field 'filename' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `sp_doc` (`title`,`author`,`content`,`addtime`) VALUES ('天蚕土豆入选福布斯中国30岁以下精英榜 堂姐：嘚瑟','admin','我有很多花花 丢掉也不给你','1500788334')
+
+[ 2017-07-23T13:38:56+08:00 ] 127.0.0.1 /index.php/Admin/Doc/add.html
+ERR: 1364:Field 'filename' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `sp_doc` (`title`,`author`,`content`,`addtime`) VALUES ('天蚕土豆入选福布斯中国30岁以下精英榜 堂姐：嘚瑟','admin','我有很多花花 丢掉也不给你','1500788336')
+

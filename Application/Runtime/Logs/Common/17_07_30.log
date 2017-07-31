@@ -1,0 +1,12 @@
+[ 2017-07-30T09:40:01+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:Favicon
+
+[ 2017-07-30T14:12:53+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:Favicon
+
+[ 2017-07-30T17:19:53+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:Favicon
+
+[ 2017-07-30T23:50:32+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList/p/3.html
+ERR: 无法加载模块:Index.php
+
